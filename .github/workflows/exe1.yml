@@ -12,3 +12,5 @@ jobs:
         steps:
             - name: push to main
               run: echo "hello New change is pushed to main"
+            - name: list env
+              run: env
