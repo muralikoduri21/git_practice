@@ -1,0 +1,13 @@
+---
+name: exe3
+
+on:
+    push:
+        branches:
+            - dev
+jobs:
+    exe3-demo:
+        runs-on: ubuntu-latest
+        steps:
+            - name: reqest pr for dev
+              run: echo "thanks for merging to dev"
