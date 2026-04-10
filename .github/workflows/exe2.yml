@@ -1,0 +1,14 @@
+---
+name: exe2
+
+on:
+    push:
+        branches:
+            - dev
+
+jobs:
+    exe2-demo:
+        runs-on: ubuntu-latest
+        steps:
+            - name: check internet
+              run: curl -I https://www.google.com
