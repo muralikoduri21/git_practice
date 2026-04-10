@@ -1,0 +1,14 @@
+---
+name: exe1
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    exe1-demo:
+        runs-on: ubuntu-latest
+        steps:
+            - name: push to main
+              run: echo "hello New change is pushed to main"
